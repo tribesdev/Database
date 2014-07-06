@@ -16,8 +16,6 @@ namespace Tribes.Database.Dal
         {
             Context = context;
             DbSet = context.Set<TEntity>();
-
-            var x =DbSet.Count();
         }
 
         public IQueryable<TEntity> Get(Expression<Func<TEntity, bool>> filter = null, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null,
