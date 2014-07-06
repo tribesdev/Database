@@ -1,4 +1,5 @@
-﻿using System.Data.Entity;
+﻿
+using System.Data.Entity;
 using Tribes.Database.Context.Entities;
 
 namespace Tribes.Database.Context

@@ -9,7 +9,7 @@ using Tribes.Database.Context.Entities;
 
 namespace Tribes.Database.Dal
 {
-    public class UnitOfWork : IDisposable
+    internal class UnitOfWork : IDisposable
     {
         private Hashtable _repositories;
         private bool _disposed;

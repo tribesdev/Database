@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="TestRepository.cs" />
+    <Compile Include="TestTribeService.cs" />
     <Compile Include="TestUnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

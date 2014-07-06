@@ -7,7 +7,7 @@ using Tribes.Database.Context;
 
 namespace Tribes.Database.Dal
 {
-    public class Repository<TEntity> : IRepository<TEntity> where TEntity : class 
+    internal class Repository<TEntity> : IRepository<TEntity> where TEntity : class 
     {
         internal IDbContext Context;
         internal IDbSet<TEntity> DbSet;

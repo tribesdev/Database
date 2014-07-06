@@ -64,7 +64,7 @@ namespace Tribes.Database.Dal.Test
 
             var context = Context();
             var repo = new Repository<Tribe>(context.Object);
-
+            
             var retQuery = repo.Get(orderBy:x=> x.OrderBy(y=>y.Name));
             Assert.That(retQuery, Is.InstanceOf<IQueryable<Tribe>>());
 
